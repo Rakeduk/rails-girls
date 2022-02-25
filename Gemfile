@@ -17,6 +17,8 @@ group :production do
   gem 'pg'
 end
 
+gem 'webrick'
+
 # Adding CarrierWave for path of files 
 gem 'carrierwave'
 
