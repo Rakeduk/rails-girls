@@ -19,8 +19,12 @@ end
 
 gem 'webrick'
 
+
+
 # Adding CarrierWave for path of files 
 gem 'carrierwave'
+
+gem 'mini_magick'
 
 # Use the Puma web server [https://github.com/puma/puma]
 # gem "puma", "~> 5.0"
@@ -39,6 +43,8 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem "jquery-rails"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
